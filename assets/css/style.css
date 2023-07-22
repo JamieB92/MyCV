@@ -93,7 +93,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 369px;
+    align-self: center;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -176,9 +177,15 @@ header {
 footer {
     background-color: #525252;
     color:#fafafa;
-    min-height: 120px;
+    height: 100px;
     margin: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
 }
+
 
 .cv-pdf i {
     font-size: 18px;

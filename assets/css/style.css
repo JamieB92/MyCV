@@ -386,6 +386,11 @@ button[type="submit"] {
     color: #fafafa;
 }
 
+.book-meeting {
+    color: red;
+    text-decoration: none;
+}
+
 /*--------------------------------------------Map*/
 div#map {
     min-height: 360px;
